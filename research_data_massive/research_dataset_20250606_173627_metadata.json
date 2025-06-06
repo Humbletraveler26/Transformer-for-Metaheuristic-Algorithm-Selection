@@ -1,0 +1,58 @@
+{
+  "generation_timestamp": "2025-06-06T17:36:27.655834",
+  "total_runs": 6720,
+  "unique_problems": 56,
+  "unique_algorithms": 4,
+  "algorithms_tested": [
+    "differential_evolution",
+    "genetic_algorithm",
+    "particle_swarm",
+    "simulated_annealing"
+  ],
+  "problems_tested": [
+    "ackley",
+    "dixon_price",
+    "griewank",
+    "levy",
+    "michalewicz",
+    "powell",
+    "rastrigin",
+    "rosenbrock",
+    "schwefel",
+    "sphere",
+    "styblinski",
+    "zakharov"
+  ],
+  "dimensions_tested": [
+    "2",
+    "5",
+    "10",
+    "20",
+    "30"
+  ],
+  "runs_per_algorithm": {
+    "differential_evolution": 1680,
+    "particle_swarm": 1680,
+    "genetic_algorithm": 1680,
+    "simulated_annealing": 1680
+  },
+  "success_rate_overall": 0.17916666666666667,
+  "avg_best_fitness": 25179.79119319476,
+  "collection_parameters": {
+    "target_runs": 30,
+    "max_evaluations": 1000,
+    "dimensions": [
+      2,
+      5,
+      10,
+      20,
+      30
+    ],
+    "parallel_workers": 4
+  },
+  "data_quality": {
+    "error_rate": 0.0,
+    "completion_rate": 1.0,
+    "total_features": 51
+  }
+}

@@ -1,0 +1,96 @@
+# Project Configuration for Transformer Metaheuristic Selection
+
+# Problem Types and Scope
+problem_types:
+  continuous:
+    enabled: true
+    dimensions: [2, 5, 10, 20, 30, 50]
+    functions: ["sphere", "rastrigin", "rosenbrock", "ackley", "griewank", "cec2017"]
+  
+  combinatorial:
+    enabled: false  # Phase 2 implementation
+    problems: ["tsp", "knapsack", "qap"]
+  
+  constrained:
+    enabled: false  # Phase 3 implementation
+
+# Metaheuristic Portfolio (All algorithms now implemented!)
+metaheuristics:
+  genetic_algorithm:
+    enabled: true
+    default_params:
+      population_size: 50
+      crossover_rate: 0.8
+      mutation_rate: 0.1
+      tournament_size: 3
+      elitism: true
+  
+  particle_swarm:
+    enabled: true
+    default_params:
+      swarm_size: 30
+      inertia_weight: 0.9
+      inertia_decay: 0.99
+      cognitive_coeff: 2.0
+      social_coeff: 2.0
+      velocity_clamp: true
+      max_velocity_factor: 0.2
+  
+  differential_evolution:
+    enabled: true
+    default_params:
+      population_size: 30
+      F: 0.5
+      CR: 0.7
+      strategy: "rand/1/bin"
+      adaptive: false
+  
+  simulated_annealing:
+    enabled: true
+    default_params:
+      initial_temp: 100.0
+      final_temp: 0.01
+      cooling_schedule: "exponential"
+      cooling_rate: 0.95
+      steps_per_temp: 10
+      step_size: 0.1
+      adaptive_step: true
+
+# Experimental Setup
+experiment:
+  runs_per_combination: 10  # Multiple runs for statistical significance
+  max_evaluations: 1000     # Budget per run
+  timeout_seconds: 60       # Max time per run
+  random_seeds: [42, 123, 456, 789, 101112]  # For reproducibility
+  
+# Performance Metrics
+metrics:
+  primary: "best_fitness"
+  secondary: ["convergence_speed", "success_rate", "cpu_time"]
+  success_threshold: 1e-6  # For success rate calculation
+
+# Data Storage
+data:
+  raw_results_path: "data/raw/performance_results.csv"
+  processed_features_path: "data/processed/problem_features.h5"
+  synthetic_problems_path: "data/synthetic/"
+  
+# Feature Engineering
+features:
+  statistical: ["mean", "std", "skewness", "kurtosis", "min", "max"]
+  landscape: ["fitness_distance_correlation", "epistasis"]
+  problem_specific: ["dimension", "bounds", "separability"]
+
+# Model Configuration (Phase 3)
+transformer:
+  embedding_dim: 256
+  num_heads: 8
+  num_layers: 6
+  dropout: 0.1
+  max_sequence_length: 512
+
+# Logging and Monitoring
+logging:
+  level: "INFO"
+  use_wandb: true
+  project_name: "transformer-metaheuristic-selection" 
