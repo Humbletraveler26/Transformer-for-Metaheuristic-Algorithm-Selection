@@ -1,24 +1,24 @@
-# 🧬 Transformer for Metaheuristic Algorithm Selection
+#  Transformer for Metaheuristic Algorithm Selection
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Research](https://img.shields.io/badge/research-publication--ready-green.svg)](https://github.com/Humbletraveler26/Transformer-for-Metaheuristic-Algorithm-Selection)
 [![Data](https://img.shields.io/badge/dataset-6720%20runs-orange.svg)](https://github.com/Humbletraveler26/Transformer-for-Metaheuristic-Algorithm-Selection)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## 🎯 **Research Overview**
+## **Research Overview**
 
 This repository contains a **world-class research project** that applies **Transformer neural networks** to the problem of **metaheuristic algorithm selection** in optimization. The project has generated the largest publicly available dataset for algorithm selection research with **6,720 optimization runs** across **56 benchmark problems**.
 
-### **🏆 Key Achievements**
-- ✅ **6,720 optimization runs** - Largest dataset in the field
-- ✅ **56 benchmark problems** - Comprehensive problem coverage  
-- ✅ **4 metaheuristic algorithms** - Balanced algorithm portfolio
-- ✅ **51+ features per run** - Rich problem characterization
-- ✅ **Publication-ready research** - Statistical significance & reproducibility
+### ** Key Achievements**
+- **6,720 optimization runs** - Largest dataset in the field
+- **56 benchmark problems** - Comprehensive problem coverage  
+- **4 metaheuristic algorithms** - Balanced algorithm portfolio
+- **51+ features per run** - Rich problem characterization
+- **Publication-ready research** - Statistical significance & reproducibility
 
 ---
 
-## 📊 **Dataset Statistics**
+##  **Dataset Statistics**
 
 | Metric | Value | Significance |
 |--------|-------|--------------|
@@ -31,7 +31,7 @@ This repository contains a **world-class research project** that applies **Trans
 
 ---
 
-## 🏗️ **Project Structure**
+##  **Project Structure**
 
 ```
 Transformer-for-Metaheuristic-Algorithm-Selection/
@@ -54,7 +54,7 @@ Transformer-for-Metaheuristic-Algorithm-Selection/
 
 ---
 
-## 🚀 **Quick Start**
+## **Quick Start**
 
 ### **1. Installation**
 ```bash
@@ -94,7 +94,7 @@ python train_baseline_models.py
 
 ---
 
-## 🧮 **Algorithms Implemented**
+## **Algorithms Implemented**
 
 | Algorithm | Type | Strengths | Implementation |
 |-----------|------|-----------|----------------|
@@ -105,7 +105,7 @@ python train_baseline_models.py
 
 ---
 
-## 📏 **Benchmark Problems**
+## **Benchmark Problems**
 
 ### **Classic Functions** (Established benchmarks)
 - **Sphere** - Unimodal, convex baseline
@@ -127,15 +127,15 @@ python train_baseline_models.py
 
 ---
 
-## 🤖 **Machine Learning Models**
+##  **Machine Learning Models**
 
-### **🏆 Transformer Model**
+### ** Transformer Model**
 - **Architecture**: Custom transformer for algorithm selection
 - **Input**: 51 problem features + historical performance
 - **Output**: Algorithm recommendation with confidence
 - **Innovation**: First transformer application to metaheuristic selection
 
-### **📊 Baseline Models**
+### ** Baseline Models**
 - **Random Forest**: Ensemble tree-based selection
 - **Support Vector Machine**: Non-linear classification
 - **Neural Network**: Multi-layer perceptron
@@ -143,7 +143,7 @@ python train_baseline_models.py
 
 ---
 
-## 📈 **Research Results**
+## **Research Results**
 
 ### **Model Performance**
 - **Transformer Accuracy**: 89.2% on test set
@@ -159,7 +159,7 @@ python train_baseline_models.py
 
 ---
 
-## 📚 **Usage Examples**
+##  **Usage Examples**
 
 ### **Algorithm Selection**
 ```python
@@ -209,7 +209,7 @@ model.save('models/my_transformer.pkl')
 
 ---
 
-## 🔬 **Research Contributions**
+##  **Research Contributions**
 
 ### **1. Largest Algorithm Selection Dataset**
 - **6,720 optimization runs** (5-10x larger than existing datasets)
@@ -233,7 +233,7 @@ model.save('models/my_transformer.pkl')
 
 ---
 
-## 📊 **Data Files**
+##  **Data Files**
 
 ### **Main Dataset**
 - `research_data_massive/research_dataset_YYYYMMDD_HHMMSS.csv` - Complete 6,720-run dataset
@@ -249,7 +249,7 @@ model.save('models/my_transformer.pkl')
 
 ---
 
-## 🧪 **Testing & Validation**
+##  **Testing & Validation**
 
 ```bash
 # Run all tests
@@ -273,7 +273,7 @@ python test_massive_collection.py    # Data collection system
 
 ---
 
-## 🏆 **Citation**
+## **Citation**
 
 If you use this work in your research, please cite:
 
@@ -289,7 +289,7 @@ If you use this work in your research, please cite:
 
 ---
 
-## 🤝 **Contributing**
+##  **Contributing**
 
 We welcome contributions! Please see our contribution guidelines:
 
@@ -301,13 +301,13 @@ We welcome contributions! Please see our contribution guidelines:
 
 ---
 
-## 📄 **License**
+##  **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 **Acknowledgments**
+##  **Acknowledgments**
 
 - **Optimization Community** for benchmark function standards
 - **Transformer Architecture** pioneers for attention mechanisms
@@ -316,7 +316,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 **Contact**
+##  **Contact**
 
 - **Repository**: [github.com/Humbletraveler26/Transformer-for-Metaheuristic-Algorithm-Selection](https://github.com/Humbletraveler26/Transformer-for-Metaheuristic-Algorithm-Selection)
 - **Issues**: [GitHub Issues](https://github.com/Humbletraveler26/Transformer-for-Metaheuristic-Algorithm-Selection/issues)
@@ -324,9 +324,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🎯 **Project Status**
+##  **Project Status**
 
-🟢 **ACTIVE RESEARCH** - Ready for publication and community use
+**ACTIVE RESEARCH** - Ready for publication and community use
 
 **Latest Update**: Successfully generated 6,720-run research dataset (December 2024)
 
@@ -334,4 +334,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**⭐ Star this repository if you find it useful for your research!** 
+** Star this repository if you find it useful for your research!** 
